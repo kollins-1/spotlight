@@ -1,0 +1,21 @@
+# Ignore virtual environment
+myenv/
+
+# Ignore compiled Python files
+*.pyc
+__pycache__/
+
+# Ignore build and dist folders
+build/
+dist/
+
+# Ignore Whoosh index files (they are very large)
+search_index/
+
+# Ignore executables
+*.exe
+*.dll
+*.pkg
+
+# Ignore VS Code settings (optional)
+.vscode/
